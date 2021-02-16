@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../img/logo.png";
 import Navigation from "../components/Navigation";
 import Hero from "../components/Hero";
 import "../App.css";
