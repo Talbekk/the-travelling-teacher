@@ -4,6 +4,8 @@ $color-text-light: #999;
 
 $color-primary: #002366;
 
+$color-white: #fff;
+
 
 * {
     margin: 0;
@@ -80,7 +82,7 @@ $color-primary: #002366;
        url(./img/hero.jpg);
     background-size: cover;
     background-position: top;
-    color: #fff;
+    color: $color-white;
     backface-visibility: hidden;
     display: grid;
     justify-content: center;
