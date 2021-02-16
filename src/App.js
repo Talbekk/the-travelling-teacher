@@ -17,7 +17,10 @@ function App() {
         </nav>
         <div className="header-hero">
           <h1 className="heading-primary">
-            <span className="heading-primary-main">Michael Campbell</span>
+            <div className="heading-primary-main">
+            <span className="heading-primary-main-left">Michael</span>
+            <span className="heading-primary-main-right">Campbell</span>
+            </div>
             <span className="heading-primary-sub">The Travelling Teacher</span>
           </h1>
         </div>
