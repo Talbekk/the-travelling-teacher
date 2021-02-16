@@ -15,7 +15,12 @@ function App() {
               <li><a className="main-nav-item" href="#enquiries">Enquiries</a></li>
           </ul>
         </nav>
-        <div className="header-hero"></div>
+        <div className="header-hero">
+          <h1 className="heading-primary">
+            <span className="heading-primary-main">Michael Campbell</span>
+            <span className="heading-primary-sub">The Travelling Teacher</span>
+          </h1>
+        </div>
       </header>
     </div>
   );
