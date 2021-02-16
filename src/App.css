@@ -13,8 +13,17 @@ body {
   padding: 1rem;
 }
 
-header {
+.header {
   height: 95vh;
+  display: grid;
+  grid-template-rows: 200px 1fr;
+}
+
+.header-nav {
+  background-color: aqua;
+}
+
+.header-hero {
   background-image: linear-gradient(
     to right bottom, 
     rgba(85, 85, 85, 0.8), 
