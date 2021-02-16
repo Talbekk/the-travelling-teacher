@@ -16,11 +16,14 @@ body {
 .header {
   height: 95vh;
   display: grid;
-  grid-template-rows: 200px 1fr;
+  grid-template-rows: min-content 1fr;
 }
 
+
 .header-nav {
-  background-color: aqua;
+  display: grid;
+  justify-content: center;
+  padding-bottom: 1rem;
 }
 
 .header-hero {
@@ -31,4 +34,24 @@ body {
      url(./img/hero.jpg);
   background-size: cover;
   background-position: top;
+}
+
+.logo {
+  justify-self: center;
+  height: 11rem;
+  width: 13rem;
+  margin-bottom: 1rem;
+}
+
+.main-nav {
+  list-style: none;
+  display: flex;
+}
+
+.main-nav-item {
+  text-decoration: none;
+  color: #777;
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin-right: 1rem;
 }
