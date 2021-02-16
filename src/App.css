@@ -46,7 +46,7 @@ body {
   margin-right: 1rem;
 }
 
-.header-hero {
+.heading-primary {
   background-image: linear-gradient(
     to right bottom, 
     rgba(85, 85, 85, 0.8), 
@@ -54,15 +54,11 @@ body {
      url(./img/hero.jpg);
   background-size: cover;
   background-position: top;
+  color: #fff;
+  backface-visibility: hidden;
   display: grid;
   justify-content: center;
   align-content: center;
-}
-
-.heading-primary {
-  color: #fff;
-  display: grid;
-  backface-visibility: hidden;
 }
 
 .heading-primary-main {
