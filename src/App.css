@@ -58,30 +58,26 @@ body {
   display: grid;
   justify-content: center;
   align-content: center; }
-
-.heading-primary-main {
-  text-transform: uppercase;
-  font-size: 3.5rem;
-  font-weight: 700;
-  letter-spacing: 1rem;
-  display: flex;
-  flex-direction: row; }
-
-.heading-primary-main-left {
-  animation: moveInLeft 1.5s ease-in;
-  margin-right: .5rem; }
-
-.heading-primary-main-right {
-  animation: moveInRight 1.5s ease-in;
-  margin-left: .5rem; }
-
-.heading-primary-sub {
-  font-size: 2.5rem;
-  font-weight: 400;
-  font-family: "Parisienne", serif;
-  letter-spacing: .2rem;
-  text-align: center;
-  animation: moveUp 1.5s ease-in; }
+  .heading-primary--main {
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    font-weight: 700;
+    letter-spacing: 1rem;
+    display: flex;
+    flex-direction: row; }
+    .heading-primary--main-left {
+      animation: moveInLeft 1.5s ease-in;
+      margin-right: .5rem; }
+    .heading-primary--main-right {
+      animation: moveInRight 1.5s ease-in;
+      margin-left: .5rem; }
+  .heading-primary--sub {
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-family: "Parisienne", serif;
+    letter-spacing: .2rem;
+    text-align: center;
+    animation: moveUp 1.5s ease-in; }
 
 @keyframes moveInLeft {
   0% {
