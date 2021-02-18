@@ -1,0 +1,52 @@
+body {
+    font-family: "Newsreader", serif;
+    font-weight: 400;
+    line-height: 1.7;
+    color: $color-text-primary;
+    padding: 1rem;
+  }
+
+
+
+.heading-primary {
+    background-image: linear-gradient(
+      to right bottom, 
+      rgba($color-text-primary, 0.8), 
+      rgba($color-text-light, 0.8)),
+       url(./img/hero.jpg);
+    background-size: cover;
+    background-position: top;
+    color: $color-white;
+    backface-visibility: hidden;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+
+    &--main {
+      text-transform: uppercase;
+      font-size: 3.5rem;
+      font-weight: 700;
+      letter-spacing: 1rem;
+      display: flex;
+      flex-direction: row;
+
+      &-left {
+        animation: moveInLeft 1.5s ease-in;
+        margin-right: .5rem;
+      }
+
+      &-right {
+        animation: moveInRight 1.5s ease-in;
+        margin-left: .5rem;
+      }
+    }
+
+    &--sub {
+      font-size: 2.5rem;
+      font-weight: 400;
+      font-family: "Parisienne", serif;
+      letter-spacing: .2rem;
+      text-align: center;
+      animation: moveUp 1.5s ease-in;
+    }
+  }
