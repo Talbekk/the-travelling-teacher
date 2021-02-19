@@ -1,4 +1,7 @@
 import React from "react";
+import tutoring from "../img/one-on-one-tutoring-min.jpg";
+import business from "../img/business-english-classes-min.jpg";
+import classes from "../img/online-classes-min.jpg";
 import "../App.css";
 
 function About() {
@@ -17,7 +20,11 @@ function About() {
                 </p>
             </div>
             <div className="about-content__images">
-                This is for the images.
+                <div className="composition">
+                    <img src={tutoring} alt="Tutoring" className="composition__photo composition__photo--p1"/>
+                    <img src={business} alt="After School Classes" className="composition__photo composition__photo--p2"/>
+                    <img src={classes} alt="Business English Classes" className="composition__photo composition__photo--p3"/>
+                </div>
             </div>
         </div>
     </section>

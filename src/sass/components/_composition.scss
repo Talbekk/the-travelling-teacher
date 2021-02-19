@@ -1,0 +1,28 @@
+.composition {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+
+    &__photo {
+        width: 40%;
+        // height: 4rem;
+        box-shadow: 0 1.5rem 4rem rgba($color-primary-dark, .4);
+        border-radius: 2px;
+        position: absolute;
+
+        &--p1 {
+            left: 5rem;
+            top: -2rem;
+        }
+
+        &--p2 {
+            right: 5rem;
+            top: 2rem;
+        }
+
+        &--p3 {
+            left: 20rem;
+            top: 10rem;
+        }
+    }
+}

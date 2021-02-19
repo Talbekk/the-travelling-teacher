@@ -89,6 +89,25 @@ body {
 .u-margin-bottom-8 {
   margin-bottom: 8rem; }
 
+.composition {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  position: relative; }
+  .composition__photo {
+    width: 40%;
+    box-shadow: 0 1.5rem 4rem rgba(0, 17, 108, 0.4);
+    border-radius: 2px;
+    position: absolute; }
+    .composition__photo--p1 {
+      left: 5rem;
+      top: -2rem; }
+    .composition__photo--p2 {
+      right: 5rem;
+      top: 2rem; }
+    .composition__photo--p3 {
+      left: 20rem;
+      top: 10rem; }
+
 .app {
   display: grid;
   grid-template-rows: min-content 1fr; }
@@ -105,9 +124,6 @@ body {
     grid-template-rows: repeat(2, 1fr);
     grid-row-gap: 2rem;
     margin-left: 5rem; }
-  .about-content__images {
-    display: grid;
-    justify-content: center; }
 
 .header {
   height: 95vh;
