@@ -155,7 +155,7 @@ body {
       text-decoration: none;
       color: #777;
       text-transform: uppercase;
-      font-size: 1.3rem;
+      font-size: 2rem;
       margin-right: 2rem;
       position: relative;
       cursor: pointer; }
@@ -173,6 +173,10 @@ body {
       .header__main-nav--item:hover::before {
         visibility: visible;
         transform: scaleX(1); }
+
+.mini-nav-bar {
+  background-color: salmon;
+  z-index: 100; }
 
 .section-about {
   background-color: #f7f7f7;

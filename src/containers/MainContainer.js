@@ -3,6 +3,7 @@ import About from "../components/About";
 import "../App.css";
 
 function MainContainer() {
+  
   return (
    <main>
        <About/>
