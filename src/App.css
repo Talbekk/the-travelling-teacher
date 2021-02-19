@@ -97,7 +97,9 @@ body {
     width: 40%;
     box-shadow: 0 1.5rem 4rem rgba(0, 17, 108, 0.4);
     border-radius: 2px;
-    position: absolute; }
+    position: absolute;
+    z-index: 10;
+    transition: all .2s; }
     .composition__photo--p1 {
       left: 5rem;
       top: -2rem; }
@@ -107,6 +109,12 @@ body {
     .composition__photo--p3 {
       left: 20rem;
       top: 10rem; }
+    .composition__photo:hover {
+      transform: scale(1.05) translateY(-5px);
+      box-shadow: 0 2.5rem 4rem rgba(0, 17, 108, 0.4);
+      z-index: 20; }
+  .compositionhover .composition__photo:not(:hover) {
+    transform: scale(0.9); }
 
 .app {
   display: grid;
