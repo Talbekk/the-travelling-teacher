@@ -1,15 +1,84 @@
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-200px); }
+  100% {
+    opacity: 1;
+    transform: translateX(0); } }
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(200px); }
+  100% {
+    opacity: 1;
+    transform: translateX(0); } }
+
+@keyframes moveUp {
+  0% {
+    opacity: 0;
+    transform: translateY(200px); }
+  100% {
+    opacity: 1;
+    transform: translateY(0); } }
+
 * {
   margin: 0;
   padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
   box-sizing: border-box; }
 
 body {
   font-family: "Newsreader", serif;
   font-weight: 400;
-  font-size: 62.5%;
   line-height: 1.7;
   color: #777;
   padding: 1rem; }
+
+.heading-primary {
+  background-image: linear-gradient(to right bottom, rgba(119, 119, 119, 0.8), rgba(153, 153, 153, 0.8)), url(./img/hero.jpg);
+  background-size: cover;
+  background-position: top;
+  color: #fff;
+  backface-visibility: hidden;
+  display: grid;
+  justify-content: center;
+  align-content: center; }
+  .heading-primary--main {
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    font-weight: 700;
+    letter-spacing: 1rem;
+    display: flex;
+    flex-direction: row; }
+    .heading-primary--main-left {
+      animation: moveInLeft 1.5s ease-in;
+      margin-right: .5rem; }
+    .heading-primary--main-right {
+      animation: moveInRight 1.5s ease-in;
+      margin-left: .5rem; }
+  .heading-primary--sub {
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-family: "Parisienne", serif;
+    letter-spacing: .2rem;
+    text-align: center;
+    animation: moveUp 1.5s ease-in; }
+
+.heading-secondary {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-image: linear-gradient(to right, #1059a9, #00116c);
+  -webkit-background-clip: text;
+  color: transparent;
+  display: grid;
+  justify-content: center; }
 
 .header {
   height: 95vh;
@@ -49,56 +118,10 @@ body {
         visibility: visible;
         transform: scaleX(1); }
 
-.heading-primary {
-  background-image: linear-gradient(to right bottom, rgba(119, 119, 119, 0.8), rgba(153, 153, 153, 0.8)), url(./img/hero.jpg);
-  background-size: cover;
-  background-position: top;
-  color: #fff;
-  backface-visibility: hidden;
+.section_about {
   display: grid;
-  justify-content: center;
-  align-content: center; }
-  .heading-primary--main {
-    text-transform: uppercase;
-    font-size: 3.5rem;
-    font-weight: 700;
-    letter-spacing: 1rem;
-    display: flex;
-    flex-direction: row; }
-    .heading-primary--main-left {
-      animation: moveInLeft 1.5s ease-in;
-      margin-right: .5rem; }
-    .heading-primary--main-right {
-      animation: moveInRight 1.5s ease-in;
-      margin-left: .5rem; }
-  .heading-primary--sub {
-    font-size: 2.5rem;
-    font-weight: 400;
-    font-family: "Parisienne", serif;
-    letter-spacing: .2rem;
-    text-align: center;
-    animation: moveUp 1.5s ease-in; }
+  grid-template-rows: repeat(2, min-content); }
 
-@keyframes moveInLeft {
-  0% {
-    opacity: 0;
-    transform: translateX(-200px); }
-  100% {
-    opacity: 1;
-    transform: translateX(0); } }
-
-@keyframes moveInRight {
-  0% {
-    opacity: 0;
-    transform: translateX(200px); }
-  100% {
-    opacity: 1;
-    transform: translateX(0); } }
-
-@keyframes moveUp {
-  0% {
-    opacity: 0;
-    transform: translateY(200px); }
-  100% {
-    opacity: 1;
-    transform: translateY(0); } }
+.section-about {
+  background-color: #f7f7f7;
+  padding: 10rem 0; }
