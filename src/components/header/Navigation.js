@@ -10,8 +10,9 @@ function Navigation() {
           <ul className="header__main-nav">
               <li><Link spy={true} smooth={true} offset={-70} duration={600} className="header__main-nav--item" to="section-about">About</Link></li>
               <li><Link spy={true} smooth={true} offset={-70} duration={600} className="header__main-nav--item" to="section-services">Services</Link></li>
-              <li><Link spy={true} smooth={true} offset={-70} duration={600} className="header__main-nav--item" href="packages">Packages</Link></li>
-              <li><Link spy={true} smooth={true} offset={-70} duration={600} className="header__main-nav--item" href="enquiries">Enquiries</Link></li>
+              <li><Link spy={true} smooth={true} offset={-70} duration={600} className="header__main-nav--item" to="section-testimonials">Testimonials</Link></li>
+              {/* <li><Link spy={true} smooth={true} offset={-70} duration={600} className="header__main-nav--item" href="packages">Packages</Link></li>
+              <li><Link spy={true} smooth={true} offset={-70} duration={600} className="header__main-nav--item" href="enquiries">Enquiries</Link></li> */}
           </ul>
         </nav>
   );

@@ -151,6 +151,24 @@ body {
   .service-box:hover {
     transform: translateY(-1.5rem) scale(1.03); }
 
+.testimonials-review {
+  display: grid;
+  grid-template-rows: 1fr min-content;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 1.5rem 4rem rgba(0, 35, 102, 0.15);
+  margin-bottom: 5rem; }
+
+.review__text {
+  font-size: 1.6rem; }
+
+.review__user {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); }
+  .review__user-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
+
 .app {
   display: grid;
   grid-template-rows: min-content 1fr; }
@@ -224,4 +242,6 @@ body {
   background-color: #f7f7f7;
   padding: 5rem 0;
   display: grid;
-  grid-template-rows: min-content repeat(2, auto); }
+  grid-template-rows: min-content repeat(2, auto);
+  justify-content: center;
+  margin: 0 auto; }
