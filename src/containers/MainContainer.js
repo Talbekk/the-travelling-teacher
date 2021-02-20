@@ -12,7 +12,7 @@ function MainContainer() {
        <About/>
        <Services/>
        <Testimonials/>
-       <Packages/>  
+       <Packages/>
    </main>
   );
 }

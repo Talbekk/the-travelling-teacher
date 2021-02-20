@@ -24,4 +24,11 @@
         grid-template-rows: min-content repeat(2, auto) min-content;
         justify-content: center;
     }
+
+    &-packages {
+        padding: 5rem 0;
+        display: grid;
+        grid-template-rows: min-content 1fr;
+        justify-content: center;
+    }
 }
