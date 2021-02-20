@@ -146,6 +146,8 @@ body {
     width: 20rem;
     height: 15rem;
     margin-bottom: .5rem; }
+  .service-box__text {
+    font-size: 1.4rem; }
   .service-box:hover {
     transform: translateY(-1.5rem) scale(1.03); }
 
@@ -218,4 +220,4 @@ body {
 
 .section-about {
   background-color: #f7f7f7;
-  padding: 5rem 0 20rem 0; }
+  padding: 5rem 0 15rem 0; }
