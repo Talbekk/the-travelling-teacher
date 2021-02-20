@@ -104,7 +104,7 @@ body {
 .u-margin-left-5 {
   margin-left: 5rem; }
 
-.btn {
+.btn, .btn:link, .btn:visited {
   display: grid;
   justify-self: center;
   font-size: 2rem;
@@ -113,7 +113,40 @@ body {
   text-transform: uppercase;
   background-color: #002366;
   color: #fff;
-  text-decoration: none; }
+  text-decoration: none;
+  transition: all .2s;
+  position: relative; }
+
+.btn:hover {
+  transform: translateY(-0.3rem);
+  box-shadow: 0 1rem 2rem rgba(0, 35, 102, 0.2); }
+  .btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.5);
+    opacity: 0; }
+
+.btn:active, .btn:focus {
+  transform: translateY(-0.1rem);
+  box-shadow: 0 0.5rem 1rem rgba(0, 35, 102, 0.2); }
+
+.btn--blue {
+  background-color: #002366;
+  color: #fff; }
+  .btn--blue::after {
+    background-color: #002366; }
+
+.btn::after {
+  color: #fff;
+  content: "";
+  display: grid;
+  justify-self: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  border-radius: 5px;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s; }
 
 .composition {
   display: grid;
