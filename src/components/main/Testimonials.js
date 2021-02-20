@@ -5,12 +5,12 @@ import "../../App.css";
 function Testimonials() {
   return (
     <section className="section-testimonials">
-        <h2 className="heading-secondary u-margin-bottom-8">
+        <h2 className="heading-secondary u-margin-bottom-4">
             Testimonials
         </h2>
         <figure className="testimonials-review">
             <blockquote className="review__text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque architecto dicta animi, totam, itaque officia ex.
+            &ldquo;Maecenas eget urna mi. Integer sed sem et urna laoreet bibendum vel ut mauris. In hac habitasse platea dictumst. Integer pulvinar lacinia justo, et pulvinar libero consectetur eget. Nulla facilisi. Praesent pretium est ac tortor lobortis venenatis. Curabitur a accumsan est. Vivamus et mauris sem. Fusce molestie enim at condimentum iaculis.&rdquo;
             </blockquote>
             <figcaption className="review__user">
                 <img src={logo} alt="User 1" className="review__photo"/>
@@ -23,7 +23,7 @@ function Testimonials() {
         </figure>
         <figure className="testimonials-review">
             <blockquote className="review__text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque architecto dicta animi, totam, itaque officia ex.
+            &ldquo;Aenean urna lorem, porttitor fringilla suscipit sit amet, ornare at augue. Proin aliquet nec velit vel consectetur. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus accumsan ultrices est id vulputate. Nulla pulvinar malesuada mi non ullamcorper.&rdquo;
             </blockquote>
             <figcaption className="review__user">
                 <img src={logo} alt="User 1" className="review__photo"/>

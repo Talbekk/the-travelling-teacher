@@ -2,24 +2,45 @@
     display: grid;
     grid-template-rows: 1fr min-content;
     justify-content: center;
-    background-color: rgba($color-white, 0.9);
+    background-color: rgba($color-white, 1);
     box-shadow: 0 1.5rem 4rem rgba($color-primary, .15);
-    margin-bottom: 5rem;
+    width: 75%;
+    margin: 0 auto 5rem auto;
+    padding: 2rem;
+    border-radius: 5px;
 }
 
 .review {
 
     &__text {
         font-size: $default-font-size;
+        margin-bottom: 2rem;
+        justify-self: center;
+    }
+
+    &__photo {
+        width: 7rem;
+        height: 7rem;
+        margin-right: 2rem;
     }
 
     &__user {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: min-content auto min-content;
+        justify-self: end;
+        align-items: center;
 
         &-box {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            font-size: 1.2rem;
+            margin-right: 2rem;
+        }
+
+        &-rating {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: $color-primary;
         }
     }
 
