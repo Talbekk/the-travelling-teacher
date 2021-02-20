@@ -1,0 +1,35 @@
+.card {
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
+    box-shadow: 0 1.5rem 4rem rgba($color-primary, .15);
+    border-radius: 5px;
+    font-size: $default-font-size;
+
+    &__header {
+        background-color: $color-primary;
+        color: $color-white;
+        padding: .5rem;
+
+        &--heading{
+            font-size: 3rem;
+            text-transform: uppercase;
+        }
+    }
+
+    &__details {
+        background-color: $color-grey-light-1;
+        border: 1px solid $color-primary;
+
+        &--list {
+            padding: 1rem 0 1rem 2rem;
+        }
+    }
+
+    &__btn {
+        background-color: $color-primary;
+        color: $color-white;
+        border: none;
+        padding: 1rem;
+        cursor: pointer;        
+    }
+}
