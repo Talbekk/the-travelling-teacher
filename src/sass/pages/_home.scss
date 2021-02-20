@@ -31,4 +31,16 @@
         grid-template-rows: min-content 1fr;
         justify-content: center;
     }
+
+    &-enquiries {
+        padding: 5rem 0;
+        display: grid;
+        justify-content: center;
+        background-image: linear-gradient(
+            to right bottom, 
+            rgba($color-text-primary, 0.5), 
+            rgba($color-text-light, 0.5)),
+             url(./img/form-background.jpg);
+        background-size: cover;
+    }
 }

@@ -22,3 +22,10 @@
     grid-column-gap: 10rem;
     margin: 0 5rem; 
 }
+
+.enquiries-content {
+    margin: 0 auto;
+    background-color: $color-white;
+    box-shadow: 0 1.5rem 4rem rgba($color-primary, .15);
+    border-radius: 5px;
+}

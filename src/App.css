@@ -108,6 +108,7 @@ body {
   display: grid;
   justify-self: center;
   font-size: 2rem;
+  font-weight: 700;
   padding: 1rem;
   border-radius: 5px;
   text-transform: uppercase;
@@ -293,6 +294,12 @@ body {
   grid-column-gap: 10rem;
   margin: 0 5rem; }
 
+.enquiries-content {
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 1.5rem 4rem rgba(0, 35, 102, 0.15);
+  border-radius: 5px; }
+
 .header {
   height: 95vh;
   display: grid;
@@ -356,3 +363,10 @@ body {
   display: grid;
   grid-template-rows: min-content 1fr;
   justify-content: center; }
+
+.section-enquiries {
+  padding: 5rem 0;
+  display: grid;
+  justify-content: center;
+  background-image: linear-gradient(to right bottom, rgba(119, 119, 119, 0.5), rgba(153, 153, 153, 0.5)), url(./img/form-background.jpg);
+  background-size: cover; }

@@ -3,6 +3,7 @@ import About from "../components/main/About";
 import Services from "../components/main/Services";
 import Testimonials from "../components/main/Testimonials";
 import Packages from "../components/main/Packages";
+import Enquiries from "../components/main/Enquiries";
 import "../App.css";
 
 function MainContainer() {
@@ -13,6 +14,7 @@ function MainContainer() {
        <Services/>
        <Testimonials/>
        <Packages/>
+       <Enquiries/>
    </main>
   );
 }
