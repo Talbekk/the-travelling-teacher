@@ -1,5 +1,6 @@
 import React from "react";
-import About from "../components/About";
+import About from "../components/main/About";
+import Services from "../components/main/Services";
 import "../App.css";
 
 function MainContainer() {
@@ -7,6 +8,7 @@ function MainContainer() {
   return (
    <main>
        <About/>
+       <Services/>
    </main>
   );
 }

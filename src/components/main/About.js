@@ -1,12 +1,12 @@
 import React from "react";
-import tutoring from "../img/one-on-one-tutoring-min.jpg";
-import business from "../img/business-english-classes-min.jpg";
-import classes from "../img/online-classes-min.jpg";
-import "../App.css";
+import tutoring from "../../img/one-on-one-tutoring-min.jpg";
+import business from "../../img/business-english-classes-min.jpg";
+import classes from "../../img/online-classes-min.jpg";
+import "../../App.css";
 
 function About() {
   return (
-    <section className="section-about" id="section-about">
+    <section className="section-about">
         <h2 className="heading-secondary u-margin-bottom-8">
             About Me
         </h2>

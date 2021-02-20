@@ -1,0 +1,26 @@
+.service-box {
+    display: grid;
+    grid-template-rows: repeat(3, min-content);
+    justify-items: center;
+    background-color: rgba($color-white, 0.9);
+    font-size: 1.2rem;
+    padding: 2rem;
+    border-radius: 3px;
+    text-align: center;
+    box-shadow: 0 1.5rem 4rem rgba($color-primary, .15);
+    transition: all .2s;
+
+    &__image {
+        width: 20rem;
+        height: 15rem;
+        margin-bottom: .5rem;
+    }
+
+    &__text {
+
+    }
+
+    &:hover {
+        transform: translateY(-1.5rem) scale(1.03);
+    }
+}

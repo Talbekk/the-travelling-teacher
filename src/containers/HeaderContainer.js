@@ -1,6 +1,6 @@
 import React from "react";
-import Navigation from "../components/Navigation";
-import Hero from "../components/Hero";
+import Navigation from "../components/header/Navigation";
+import Hero from "../components/header/Hero";
 import "../App.css";
 
 function HeaderContainer() {
