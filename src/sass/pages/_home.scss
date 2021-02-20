@@ -21,7 +21,7 @@
         background-color: $color-grey-light-1;
         padding: 5rem 0;
         display: grid;
-        grid-template-rows: min-content repeat(2, auto);
+        grid-template-rows: min-content repeat(2, auto) min-content;
         justify-content: center;
     }
 }

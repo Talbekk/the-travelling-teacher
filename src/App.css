@@ -104,6 +104,17 @@ body {
 .u-margin-left-5 {
   margin-left: 5rem; }
 
+.btn {
+  display: grid;
+  justify-self: center;
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 5px;
+  text-transform: uppercase;
+  background-color: #002366;
+  color: #fff;
+  text-decoration: none; }
+
 .composition {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -159,7 +170,7 @@ body {
   box-shadow: 0 1.5rem 4rem rgba(0, 35, 102, 0.15);
   width: 75%;
   margin: 0 auto 5rem auto;
-  padding: 2rem;
+  padding: 1.5rem 2rem;
   border-radius: 5px; }
 
 .review__text {
@@ -260,5 +271,5 @@ body {
   background-color: #f7f7f7;
   padding: 5rem 0;
   display: grid;
-  grid-template-rows: min-content repeat(2, auto);
+  grid-template-rows: min-content repeat(2, auto) min-content;
   justify-content: center; }

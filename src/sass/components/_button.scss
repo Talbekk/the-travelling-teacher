@@ -1,0 +1,11 @@
+.btn {
+  display: grid;
+  justify-self: center;
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 5px;
+  text-transform: uppercase;
+  background-color: $color-primary;
+  color: $color-white;
+  text-decoration: none;
+}

@@ -34,6 +34,7 @@ function Testimonials() {
                 <div className="review__user-rating">9.7</div>
             </figcaption>
         </figure>
+        <a href="https://ratemyteachers.com/" target="_blank" rel="noreferrer" className="btn">View More &rarr;</a>
     </section>
   );
 }
