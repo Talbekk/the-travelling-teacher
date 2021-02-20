@@ -2,5 +2,25 @@
     &-about{
         background-color: $color-grey-light-1;
         padding: 5rem 0 15rem 0;
+        display: grid;
+        grid-template-rows: repeat(2, min-content);
+    }
+
+    &-services {
+        display: grid;
+        padding: 10rem 0;
+        background-image: linear-gradient(
+            to right bottom, 
+            rgba($color-text-primary, 0.5), 
+            rgba($color-text-light, 0.5)),
+             url(./img/form-background-min.jpg);
+        background-size: cover;
+    }
+
+    &-testimonials {
+        background-color: $color-grey-light-1;
+        padding: 5rem 0;
+        display: grid;
+        grid-template-rows: min-content repeat(2, auto);
     }
 }

@@ -8,9 +8,6 @@ import "../../App.css";
 function Services() {
   return (
     <section className="section-services">
-        {/* <h2 className="heading-secondary u-margin-bottom-4">
-            Services
-        </h2> */}
         <div className="services-content">
             <div className="service-box">
                 <img className="service-box__image" src={tutoring} alt="Tutoring"/>

@@ -83,7 +83,7 @@ body {
 
 .heading-tertiary {
   text-transform: uppercase;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   margin: 1rem 0; }
 
 .paragraph {
@@ -155,10 +155,6 @@ body {
   display: grid;
   grid-template-rows: min-content 1fr; }
 
-.section-about {
-  display: grid;
-  grid-template-rows: repeat(2, min-content); }
-
 .about-content {
   display: grid;
   grid-template-columns: repeat(2, 1fr); }
@@ -166,12 +162,6 @@ body {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     grid-row-gap: 2rem; }
-
-.section-services {
-  display: grid;
-  padding: 10rem 0;
-  background-image: linear-gradient(to right bottom, rgba(119, 119, 119, 0.5), rgba(153, 153, 153, 0.5)), url(./img/form-background-min.jpg);
-  background-size: cover; }
 
 .services-content {
   display: grid;
@@ -220,4 +210,18 @@ body {
 
 .section-about {
   background-color: #f7f7f7;
-  padding: 5rem 0 15rem 0; }
+  padding: 5rem 0 15rem 0;
+  display: grid;
+  grid-template-rows: repeat(2, min-content); }
+
+.section-services {
+  display: grid;
+  padding: 10rem 0;
+  background-image: linear-gradient(to right bottom, rgba(119, 119, 119, 0.5), rgba(153, 153, 153, 0.5)), url(./img/form-background-min.jpg);
+  background-size: cover; }
+
+.section-testimonials {
+  background-color: #f7f7f7;
+  padding: 5rem 0;
+  display: grid;
+  grid-template-rows: min-content repeat(2, auto); }
