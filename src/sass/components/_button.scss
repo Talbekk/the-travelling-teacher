@@ -56,3 +56,19 @@
         transition: all .4s;
     }
 }
+
+.card__btn {
+    background-color: $color-primary;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: $color-white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;   
+    transition:  all .2s;
+    
+    &:hover {
+        background-color: $color-primary-light;
+    }
+}

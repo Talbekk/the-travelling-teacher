@@ -3,33 +3,38 @@
     grid-template-rows: min-content 1fr min-content;
     box-shadow: 0 1.5rem 4rem rgba($color-primary, .15);
     border-radius: 5px;
+    background-color: $color-grey-light-1;
     font-size: $default-font-size;
+    border: 1px solid $color-primary;
+    transition: all .2s;
 
     &__header {
         background-color: $color-primary;
         color: $color-white;
-        padding: .5rem;
+        padding: 1rem;
 
         &--heading{
-            font-size: 3rem;
+            font-size: 3.5rem;
             text-transform: uppercase;
+        }
+
+        &--price {
+            font-size: 3rem;
+        }
+
+        &--description {
+            font-size: 2rem;
         }
     }
 
     &__details {
-        background-color: $color-grey-light-1;
-        border: 1px solid $color-primary;
 
         &--list {
             padding: 1rem 0 1rem 2rem;
         }
     }
 
-    &__btn {
-        background-color: $color-primary;
-        color: $color-white;
-        border: none;
-        padding: 1rem;
-        cursor: pointer;        
+    &:hover {
+        transform: translateY(-1.5rem) scale(1.03);
     }
 }

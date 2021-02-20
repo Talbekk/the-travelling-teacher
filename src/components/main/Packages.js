@@ -10,54 +10,53 @@ function Packages() {
         <div className="packages-content">
             <div className="card">
                 <div className="card__header">
-                    <h4 className="card__header--heading">Test Header</h4>
-                    <p className="card__heading--price">£3.00 per class</p>
-                    <p className="card__heading--description">Only £3 per class</p>
+                    <h4 className="card__header--heading">Single Class</h4>
+                    <p className="card__header--price">£100 per class</p>
+                    <p className="card__header--description">Can be booked individually</p>
                 </div>
                 <div className="card__details">
                     <ul className="card__details--list">
-                        <li>3 day tour</li>
-                        <li>Up to 30 people</li>
-                        <li>2 tour guides</li>
-                        <li>Sleep in cosy hotels</li>
-                        <li>Difficulty: easy</li>
+                        <li>Recommended for substitute roles</li>
+                        <li>Up to 15 per class</li>
+                        <li>Covers basic topics</li>
+                        <li>No homework required</li>
                     </ul>
                 </div>
-                <button className="card__btn">Enquire Now</button>
+                <button className="card__btn">Enquire Now &rarr;</button>
             </div>
             <div className="card">
                 <div className="card__header">
-                    <h4 className="card__header--heading">Test Header</h4>
-                    <p className="card__heading--price">£3.00 per class</p>
-                    <p className="card__heading--description">Only £3 per class</p>
+                    <h4 className="card__header--heading">Month Block</h4>
+                    <p className="card__header--price">£75 per class</p>
+                    <p className="card__header--description">Three classes per week</p>
                 </div>
                 <div className="card__details">
                     <ul className="card__details--list">
-                        <li>3 day tour</li>
-                        <li>Up to 30 people</li>
-                        <li>2 tour guides</li>
-                        <li>Sleep in cosy hotels</li>
-                        <li>Difficulty: easy</li>
+                        <li>Perfect for trials or long-term substitute roles</li>
+                        <li>Up to 12 per class</li>
+                        <li>Covers variety of topics</li>
+                        <li>Weekly homework provided</li>
+                        <li>Fortnightly reviews included</li>
                     </ul>
                 </div>
-                <button className="card__btn">Enquire Now</button>
+                <button className="card__btn">Enquire Now &rarr;</button>
             </div>
             <div className="card">
                 <div className="card__header">
-                    <h4 className="card__header--heading">Test Header</h4>
-                    <p className="card__heading--price">£3.00 per class</p>
-                    <p className="card__heading--description">Only £3 per class</p>
+                    <h4 className="card__header--heading">Semester Block</h4>
+                    <p className="card__header--price">£50 per class</p>
+                    <p className="card__header--description">Three to five classes per week</p>
                 </div>
                 <div className="card__details">
                     <ul className="card__details--list">
-                        <li>3 day tour</li>
-                        <li>Up to 30 people</li>
-                        <li>2 tour guides</li>
-                        <li>Sleep in cosy hotels</li>
-                        <li>Difficulty: easy</li>
+                        <li>Perfect for exam preparation</li>
+                        <li>Up to 10 per classes</li>
+                        <li>Covers all disciplines</li>
+                        <li>Daily homework provided</li>
+                        <li>Montly reviews included</li>
                     </ul>
                 </div>
-                <button className="card__btn">Enquire Now</button>
+                <button className="card__btn">Enquire Now &rarr;</button>
             </div>
         </div>
     </section>

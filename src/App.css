@@ -148,30 +148,43 @@ body {
   z-index: -1;
   transition: all .4s; }
 
+.card__btn {
+  background-color: #002366;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  transition: all .2s; }
+  .card__btn:hover {
+    background-color: #1059a9; }
+
 .card {
   display: grid;
   grid-template-rows: min-content 1fr min-content;
   box-shadow: 0 1.5rem 4rem rgba(0, 35, 102, 0.15);
   border-radius: 5px;
-  font-size: 1.6rem; }
+  background-color: #f7f7f7;
+  font-size: 1.6rem;
+  border: 1px solid #002366;
+  transition: all .2s; }
   .card__header {
     background-color: #002366;
     color: #fff;
-    padding: .5rem; }
+    padding: 1rem; }
     .card__header--heading {
-      font-size: 3rem;
+      font-size: 3.5rem;
       text-transform: uppercase; }
-  .card__details {
-    background-color: #f7f7f7;
-    border: 1px solid #002366; }
-    .card__details--list {
-      padding: 1rem 0 1rem 2rem; }
-  .card__btn {
-    background-color: #002366;
-    color: #fff;
-    border: none;
-    padding: 1rem;
-    cursor: pointer; }
+    .card__header--price {
+      font-size: 3rem; }
+    .card__header--description {
+      font-size: 2rem; }
+  .card__details--list {
+    padding: 1rem 0 1rem 2rem; }
+  .card:hover {
+    transform: translateY(-1.5rem) scale(1.03); }
 
 .composition {
   display: grid;
@@ -277,7 +290,7 @@ body {
 .packages-content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 5rem;
+  grid-column-gap: 10rem;
   margin: 0 5rem; }
 
 .header {
