@@ -12,7 +12,7 @@ function Navigation() {
               <li><Link spy={true} smooth={true} offset={-70} duration={600} className="header__main-nav--item" to="section-services">Services</Link></li>
               <li><Link spy={true} smooth={true} offset={-70} duration={600} className="header__main-nav--item" to="section-testimonials">Testimonials</Link></li>
               <li><Link spy={true} smooth={true} offset={-70} duration={600} className="header__main-nav--item" to="section-packages">Packages</Link></li>
-              {/* <li><Link spy={true} smooth={true} offset={-70} duration={600} className="header__main-nav--item" href="enquiries">Enquiries</Link></li> */}
+              <li><Link spy={true} smooth={true} offset={-70} duration={600} className="header__main-nav--item" to="section-enquiries">Enquiries</Link></li>
           </ul>
         </nav>
   );
