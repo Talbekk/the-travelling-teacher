@@ -3,8 +3,10 @@ import "../../App.css";
 
 function Enquiries() {
 
-  const [ chosenService, setChosenService ] = useState("tutoring");
-  const [ serviceOptions ] = useState(["Tutoring", "Business English", "After School", "Online"]);
+  const [ chosenService, setChosenService ] = useState("Tutoring");
+  const [ serviceOptions ] = useState(["After School", "Business English", "Online", "Tutoring"]);
+  const [ chosenPackage, setChosenPackage ] = useState("Single Class");
+  const [ packageOptions ] = useState(["Month Bundle", "Single Class", "Semester Bundle"]);
 
   function populateDropdown(selectOptions) {
       return selectOptions.map((currentOption) => 
@@ -40,7 +42,17 @@ function Enquiries() {
                     </select>
                     <label>Service</label>
                 </div>
-                <button className="btn btn--blue ">Send Form</button>
+                <div class="form__group">
+                    <select value={chosenPackage} onChange={(e) => setChosenPackage(e.target.value)} required>
+                        {populateDropdown(packageOptions)}
+                    </select>
+                    <label>Package</label>
+                </div>
+                <div class="form__group">
+                    <textarea id="message" cols="30" rows="5"placeholder="Message" class="form__textarea" required/>
+                    <label for="message" class="form__label">Message</label>
+                </div>
+                <button className="btn btn--blue">Send Form</button>
             </form>
         </div>
     </section>
