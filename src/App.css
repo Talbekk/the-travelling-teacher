@@ -109,7 +109,7 @@ body {
   margin-left: 5rem; }
 
 .align-left {
-  justify-content: start; }
+  justify-self: start !important; }
 
 .btn, .btn:link, .btn:visited {
   display: grid;
@@ -220,6 +220,14 @@ body {
       z-index: 20; }
   .compositionhover .composition__photo:not(:hover) {
     transform: scale(0.9); }
+
+.form {
+  display: grid;
+  grid-auto-rows: repeat(min-content);
+  grid-row-gap: 1rem; }
+  .form__group {
+    display: grid;
+    justify-content: start; }
 
 .service-box {
   display: grid;

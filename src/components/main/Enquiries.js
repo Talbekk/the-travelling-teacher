@@ -27,34 +27,34 @@ function Enquiries() {
                 </p>
                 <form className="form" action="#">
                     <div className="form__group">
-                        <input id="name" type="text" placeholder="Full Name" className="form__input" required/>
                         <label htmlFor="name" className="form__label">Full Name</label>
+                        <input id="name" type="text" placeholder="Full Name" className="form__input" required/>
                     </div>
                     <div className="form__group">
-                        <input id="email" type="email" placeholder="Email Address" className="form__input" required/>
                         <label htmlFor="email" className="form__label">Email Address</label>
+                        <input id="email" type="email" placeholder="Email Address" className="form__input" required/>
                     </div>
                     <div className="form__group">
-                        <input id="number" type="tel" placeholder="Phone Number" className="form__input" required/>
                         <label htmlFor="number" className="form__label">Phone Number</label>
+                        <input id="number" type="tel" placeholder="Phone Number" className="form__input" required/>
                     </div>
                     <div className="form__group">
+                        <label className="form__label">Service</label>
                         <select value={chosenService} onChange={(e) => setChosenService(e.target.value)} required>
                             {populateDropdown(serviceOptions)}
                         </select>
-                        <label>Service</label>
                     </div>
                     <div className="form__group">
+                        <label className="form__label">Package</label>
                         <select value={chosenPackage} onChange={(e) => setChosenPackage(e.target.value)} required>
                             {populateDropdown(packageOptions)}
                         </select>
-                        <label>Package</label>
                     </div>
                     <div className="form__group">
-                        <textarea id="message" cols="30" rows="5"placeholder="Message" className="form__textarea" required/>
                         <label htmlFor="message" className="form__label">Message</label>
+                        <textarea id="message" cols="50" rows="5" placeholder="Please add any other comments or questions here..." className="form__textarea" required/>
                     </div>
-                    <button className="btn btn--blue">Send Form</button>
+                    <button className="btn btn--blue align-left">Send Form</button>
                 </form>
             </div>
         </div>
