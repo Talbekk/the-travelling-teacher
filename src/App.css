@@ -302,9 +302,9 @@ body {
   margin: 0 5rem; }
 
 .enquiries-layout {
-  background-image: url(./img/form-pic.jpg);
-  background-size: 65%;
-  background-position: right;
+  background-image: url(./img/form-background-min.jpg);
+  background-size: 100%;
+  background-position: cover;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 35, 102, 0.15);
   display: flex;
@@ -364,15 +364,16 @@ body {
 
 .section-about {
   background-color: #f7f7f7;
-  padding: 5rem 0 15rem 0;
+  padding: 5rem 0 20rem 0;
   display: grid;
   grid-template-rows: repeat(2, min-content); }
 
 .section-services {
   display: grid;
   padding: 10rem 0;
-  background-image: linear-gradient(to right bottom, rgba(119, 119, 119, 0.5), rgba(153, 153, 153, 0.5)), url(./img/form-background-min.jpg);
-  background-size: cover; }
+  background-image: linear-gradient(to right bottom, rgba(119, 119, 119, 0.5), rgba(153, 153, 153, 0.5)), url(./img/form-pic.jpg);
+  background-size: cover;
+  background-position: center; }
 
 .section-testimonials {
   background-color: #f7f7f7;

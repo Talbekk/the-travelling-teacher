@@ -26,9 +26,9 @@
 .enquiries {
 
     &-layout {
-    background-image: url(./img/form-pic.jpg);
-    background-size: 65%;
-    background-position: right;
+    background-image: url(./img/form-background-min.jpg);
+    background-size: 100%;
+    background-position: cover;
     border-radius: 3px;
     box-shadow: 0 1.5rem 4rem rgba($color-primary, .15);
     display: flex;
