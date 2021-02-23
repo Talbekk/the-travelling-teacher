@@ -15,6 +15,7 @@
         text-decoration: none;
         transition: all .2s;
         position: relative;
+        cursor: pointer; 
     }
 
     &:hover {
@@ -66,8 +67,8 @@
     color: $color-white;
     border: none;
     padding: 1rem;
-    cursor: pointer;   
     transition:  all .2s;
+    cursor: pointer; 
     
     &:hover {
         background-color: $color-primary-light;
