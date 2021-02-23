@@ -38,9 +38,8 @@
         justify-content: center;
         background-image: linear-gradient(
             to right bottom, 
-            rgba($color-text-primary, 0.5), 
-            rgba($color-text-light, 0.5)),
-             url(./img/form-background.jpg);
+            rgba($color-text-primary, 0.7), 
+            rgba($color-text-light, 0.2));
         background-size: cover;
     }
 }

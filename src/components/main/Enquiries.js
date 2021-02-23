@@ -18,7 +18,6 @@ function Enquiries() {
   return (
     <section className="section-enquiries">
         <div className="enquiries-layout">
-            <img className="enquires-image" src={formPicture} alt="Form" />
             <div className="enquiries-content">
                 <h2 className="heading-secondary align-left">
                     Register Interest
