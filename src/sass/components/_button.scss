@@ -42,6 +42,12 @@
             background-color: $color-primary;
         }
     }
+
+    &--form {
+        grid-row: 3 / 4;
+        grid-column: 1 / 3;
+        font-family: "Newsreader", serif;
+    }
     
     &::after {
         color: $color-white;
