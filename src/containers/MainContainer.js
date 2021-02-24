@@ -12,8 +12,8 @@ function MainContainer() {
    <main>
        <About/>
        <Services/>
-       <Testimonials/>
        <Packages/>
+       <Testimonials/>
        <Enquiries/>
    </main>
   );
