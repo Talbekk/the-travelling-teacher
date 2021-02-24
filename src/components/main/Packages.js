@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import "../../App.css";
 
 function Packages() {
@@ -22,7 +23,7 @@ function Packages() {
                         <li>No homework required</li>
                     </ul>
                 </div>
-                <button className="card__btn">Enquire Now &rarr;</button>
+                <Link spy={true} smooth={true} offset={-70} duration={600} className="card__btn" to="section-enquiries">Enquire Now &rarr;</Link>
             </div>
             <div className="card">
                 <div className="card__header">
@@ -39,7 +40,7 @@ function Packages() {
                         <li>Fortnightly reviews included</li>
                     </ul>
                 </div>
-                <button className="card__btn">Enquire Now &rarr;</button>
+                <Link spy={true} smooth={true} offset={-70} duration={600} className="card__btn" to="section-enquiries">Enquire Now &rarr;</Link>
             </div>
             <div className="card">
                 <div className="card__header">
@@ -56,7 +57,7 @@ function Packages() {
                         <li>Montly reviews included</li>
                     </ul>
                 </div>
-                <button className="card__btn">Enquire Now &rarr;</button>
+                <Link spy={true} smooth={true} offset={-70} duration={600} className="card__btn" to="section-enquiries">Enquire Now &rarr;</Link>
             </div>
         </div>
     </section>
