@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import formPicture from "../../img/form-pic.jpg";
 import "../../App.css";
 
 function Enquiries() {
@@ -56,7 +55,7 @@ function Enquiries() {
                     </div>
                     <div className="form__group-textarea">
                         <label htmlFor="message" className="form__label">Message</label>
-                        <textarea className="form_textarea" id="message" cols="50" rows="5" placeholder="Please add any other comments or questions here..." className="form__textarea" required/>
+                        <textarea className="form_textarea" id="message" cols="50" rows="5" placeholder="Please add any other comments or questions here..."/>
                     </div>
                     <button className="btn btn--blue btn--form align-left" type="submit">Send Form</button>
                 </form>
