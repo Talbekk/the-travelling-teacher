@@ -8,10 +8,10 @@ function App() {
 
   return (
     <div className="app">
-      <StickyNav/>
       <HeaderContainer/>
       <MainContainer/>
       <FooterContainer/>
+      <StickyNav/>
     </div>
   );
 }
