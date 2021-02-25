@@ -20,6 +20,7 @@
       list-style: none;
       display: flex;
 
+
       &--item {
         text-decoration: none;
         color: $color-text-primary;
@@ -49,4 +50,21 @@
 
       }
     }
+
+    &__sticky-nav {
+      display: grid;
+      justify-content: center;
+      padding: .5rem;
+      margin-top: 0;
+      top: 0;
+      z-index: 100;
+      position: fixed;
+      width: 100%;
+      background-color: $color-white;
+      visibility: hidden;
+    }
+}
+
+.fixed-header {
+  visibility: visible;
 }

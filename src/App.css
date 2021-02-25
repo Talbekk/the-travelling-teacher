@@ -418,6 +418,20 @@ body {
       .header__main-nav--item:hover::before {
         visibility: visible;
         transform: scaleX(1); }
+  .header__sticky-nav {
+    display: grid;
+    justify-content: center;
+    padding: .5rem;
+    margin-top: 0;
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    visibility: hidden; }
+
+.fixed-header {
+  visibility: visible; }
 
 .section-about {
   background-color: #f7f7f7;
